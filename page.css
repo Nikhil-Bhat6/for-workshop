@@ -1,0 +1,244 @@
+.container
+{
+	
+	display: flex;
+}
+
+.logo
+{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.head
+{
+	margin-left: 50px;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.head il
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+}
+
+.lists ul
+{
+	margin-top: 35px;
+}
+.lists ul li
+{
+	margin:50px 30px 0px 0px;
+	display: inline;
+}
+
+.drop li
+{
+	display: flex;
+}
+
+.drop
+{
+	font-size: 17px;
+	transition: 0.5s;
+	text-decoration: none;
+	box-decoration-break:clone;
+}
+
+.drop:hover
+{
+	transition: 0.5px;
+	color: #cc9900;
+}
+
+.lists ul li a
+{
+	text-decoration: none;
+	color: black;
+	transition: 0.9s;
+	font-size: 20px;
+}
+
+.lists ul li a:hover
+{
+	margin-top: 20px;
+	color: gold;
+	transition: 1s;
+}
+
+.lists ul li:nth-child(5)
+{
+	margin-right:80px;
+	margin-left: 20px;
+}
+
+.lists ul li:nth-child(1)
+{
+	margin-left: 80px;
+}
+
+.nav-button button
+{
+	margin-top:30px;
+	color: white;
+	border-radius: 5px;
+	border:none;
+	font-size: 20px;
+	background-color: #cc9900;
+	transition: 0.5s;
+	width: 110px;
+	height: 35px;
+}
+
+.nav-button button:hover
+{
+	transition: 0.5s;
+	background-color: black;
+	color: white;
+}
+
+.texts
+{
+	background:rgba(0,0,0,0.7); 
+	height: 500px;
+	width: 100%;
+}
+
+.bgimg
+{
+	width: 100%;
+	height: 500px;
+	background:url("photo-1527153818091-1a9638521e2a.jpg") no-repeat;
+	background-size:100%;
+}
+
+.bgcolor
+{
+	background:url("730031.jpg") no-repeat;
+	background-size:100%;
+	color: #fff;
+	height: 500px;
+	width: 100%;
+}
+
+.texts p
+{
+	font-family: 'Aleo', serif;
+	text-align: center;
+	padding:150px 150px 0px 150px;
+	color: white;
+	font-size: 45px;
+}
+
+.new
+{
+	font-size:15px;
+	color: white;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.buttons1 button
+{
+	width: 110px;
+	height: 35px;
+	font-weight: bold;
+	background-color: #cc9900;
+	color: white;
+	font-size: 15px;
+	transition: 1s;
+	margin-right: 10px;
+	border:#cc9900;
+}
+
+.buttons1
+{
+	transition: 1s;
+}
+
+.buttons1 button:hover
+{
+	transition: 1s;
+	background-color: transparent;
+	color: black;
+	border:solid white 2px;	 
+}
+
+.buttons1 a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.about
+{
+	display: flex;
+}
+
+.about-us
+{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.about-us h1
+{
+	font-family: 'Oswald', sans-serif;
+	margin-top: 0px;
+	font-size: 40px;
+}
+
+.about-us p
+{
+	font-family: 'Rubik', sans-serif;
+	color: black;
+	text-align: left;
+	font-size: 15px;
+	margin-right: 80px;
+	font-style: initial;
+}
+
+.about-img
+{
+	background:url("index.jpg") no-repeat 100%;
+	width: 600px;
+	height: 200px;
+}
+
+.about-button ul li
+{
+	display: inline;
+	margin-left: 100px;
+}
+
+.about-button p
+{
+	margin-left: 100px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.about-button ul li a button
+{
+	text-decoration: none;
+	width: 90px;
+	height: 40px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	color: white;
+	background-color: #cc9900;
+	border:none;
+	transition: 0.5s;
+	margin-right: -50px;
+}
+
+.about-button ul li a button:hover
+{
+	font-weight: bolder;
+	letter-spacing: 1px;
+	color: white;
+	letter-spacing: 2px;
+	background-color:black;
+	border:none;
+	transition: 0.8s;
+}
+

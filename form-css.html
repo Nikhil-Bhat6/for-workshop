@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is Form</title>
+	<style type="text/css">
+		
+	body
+	{
+		background:#24272b;
+	}
+
+	.fields
+	{
+		background:grey;
+		background-size:100%;
+		width:450px;
+		margin-left:450px;
+	}
+
+	.lege
+	{
+		font-size: 40px;
+		text-shadow: black 5px 5px 5px;
+		font-weight: bolder;
+		margin-left:30px;
+		font-family:arial Black;
+		color:#1e2f2f;
+	}
+
+	.field
+	{
+		text-shadow: black 5px 5px 5px;
+		margin-top: 30px;
+		line-height: 30px;
+	}
+
+	.name , .phone , .email , .quli , .sem , .branch , .dob , .addr
+	{
+		color:#ffb366;
+		text-shadow:black 5px 5px 5px;
+		font-size: 20px;
+		font-family: arial;
+	}
+
+	.nfield , .pfield , .dfield , .efield
+	{
+		width:200px;
+		height:30px;
+		border-radius: 5px;
+	}
+
+	.qfield , .sfield
+	{
+		text-shadow: black 5px 5px 5px;
+		width:200px;
+		height: 30px;
+		border-radius: 5px;
+	}
+
+	.bfield
+	{
+		width:100px;
+		height: 30px;
+		font-family: arial;
+		border-radius: 5px;
+	}
+
+	.file
+	{
+		color:#ffb366;
+		text-shadow: black 5px 5px 5px;
+		font-size: 20px;
+		font-family: arial;
+	}
+
+	.filefield
+	{
+		text-shadow: black 5px 5px 5px;
+		width:200px;
+		height: 30px;
+		border-radius: 5px;
+	}
+
+	.radiobtn
+	{
+		text-shadow: black 5px 5px 5px;
+		font-size: 20px;
+		margin-top: 20px;
+	}
+
+	.tarea
+	{
+		height: 100px;
+	}
+
+	.btnfield
+	{
+		text-shadow: black 5px 5px 5px;
+		width: 150px;
+		height: 40px;
+		border-radius: 8px;
+		background:#ffffff;
+		color:#000000;
+		border:none;
+		font-size: 20px;
+		font-family: arial;
+		transition: 2s;
+		border:solid grey 3px;
+		border:none;
+	}
+
+	.btnfield:hover
+	{
+		background-transition: 5s;
+		transition:2s; 
+		border:solid black 3px;
+		background:#000000;
+		color:#ffffff;
+		border:none;
+	}
+
+	</style>
+</head>
+<body>
+	<id="top"></id>
+	<form>
+		<fieldset class="fields" >
+
+			<legend class="lege">Registration Form</legend>
+
+				<div class="field">
+
+					<label class="name">Name: </label><input class="nfield" type="text" name="name" placeholder="Enter Name" required><br><br>
+
+					<label class="phone">Phone: </label><input class="pfield" type="text" name="phone" placeholder="Enter Phone Number" required><br><br>
+
+					<label class="email">Email: </label><input class="efield" type="email" name="email"placeholder="Enter Email" required><br><br>
+
+					<label class="quli">Qualification: </label>
+
+					<div class="radiobtn">
+						<input type="radio" name="course">B.E
+						<input type="radio" name="course">B.Tech
+						<input type="radio" name="course">B.Arch
+						<input type="radio" name="course">Arts
+						<input type="radio" name="course">Science
+						<input type="radio" name="course">Others<br><br>
+					</div>
+
+					<label class="sem">Select Semester: </label><input class="sfield" type="number" name="year" min="1" max="8" required><br><br>
+
+					<label class="branch">Select Branch: </label>
+						<select class="bfield">
+							<option>ISE</option>
+							<option>CSE</option>
+							<option>MECH</optgroup>
+							<option>CIVIL</option>
+							<option>EEE</option>
+							<option>ECE</option>
+						</select><br><br>
+
+					<label class="addr">Address: </label><br><textarea class="tarea" name="address"></textarea><br><br>
+
+					<label class="dob">Date of birth: </label><input class="dfield" type="date" name="dob"><br><br>
+
+					<label class="file">Select File: </label><input type="file" name="file"><br><br>
+
+					<center><button class="btnfield" name="send">Submit</button></center>
+				</div>
+			</fieldset>
+		</form><br><br>
+	<center><a href="#top" style="text-decoration: none; font-size: 20px;">Top Of The Page</a></center>
+</body>
+</html>
